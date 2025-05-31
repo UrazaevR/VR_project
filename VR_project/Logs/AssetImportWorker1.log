@@ -15,7 +15,7 @@ C:/Projects/VR/VR_project/VR_project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53430
+54832
 Successfully changed project path to: C:/Projects/VR/VR_project/VR_project
 C:/Projects/VR/VR_project/VR_project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Projects/VR/VR_project/VR_project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15144] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1475440572 [EditorId] 1475440572 [Version] 1048832 [Id] WindowsEditor(7,MSI-Nout) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [19336] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2045024322 [EditorId] 2045024322 [Version] 1048832 [Id] WindowsEditor(7,MSI-Nout) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15144] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1475440572 [EditorId] 1475440572 [Version] 1048832 [Id] WindowsEditor(7,MSI-Nout) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19336] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2045024322 [EditorId] 2045024322 [Version] 1048832 [Id] WindowsEditor(7,MSI-Nout) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 47.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 47.86 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.45f1 (0da89fac8e79)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Resources/UnitySubsystems
@@ -68,799 +68,138 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004427 seconds.
+Registered in 0.003763 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 230 ms
-Refreshing native plugins compatible for Editor in 37.78 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 236 ms
+Refreshing native plugins compatible for Editor in 40.63 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.763 seconds
+- Completed reload, in  0.771 seconds
 Domain Reload Profiling:
-	ReloadAssembly (763ms)
-		BeginReloadAssembly (74ms)
+	ReloadAssembly (771ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (619ms)
+			LoadAssemblies (76ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (465ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (472ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (290ms)
+				InitializePlatformSupportModulesInManaged (293ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
+				RefreshPlugins (41ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (97ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003245 seconds.
+Registered in 0.003927 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000021348E503E0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348B04820 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348B04820 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348B12D10 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002134321C7B0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213432227C0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348748020 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348748020 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213487B4030 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213432405D0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213432441E0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021343246DF0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348BBB700 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000213487FD850 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348BE3720 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021343345C20 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348805B30 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348BFF770 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021348C09980 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021347602990 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000021343364A40 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002134761A7D0 doesn't match image C:\Projects\VR\VR_project\VR_project\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.295 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1296ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1104ms)
-			LoadAssemblies (72ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (732ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (48ms)
-				ProcessInitializeOnLoadAttributes (646ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3081 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (46.4 KB). Loaded Objects now: 3542.
-Memory consumption went from 106.9 MB to 106.8 MB.
-Total: 2.734000 ms (FindLiveObjects: 0.237300 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.342800 ms  DeleteObjects: 0.072300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 744275.853592 seconds.
-  path: Assets/Materials/BlueMetal.mat
-  artifactKey: Guid(493018da27b18264b9f28cc666fe2927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Materials/BlueMetal.mat using Guid(493018da27b18264b9f28cc666fe2927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e5ab13c9aead24f21459f05a4d8069') in 0.100331 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.448682 seconds.
-  path: Assets/Models/Conveyer.blend
-  artifactKey: Guid(18c6c9792d598eb40b5e5587413b3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Models/Conveyer.blend using Guid(18c6c9792d598eb40b5e5587413b3178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c48c3bce89006f3318f45e282cc3f') in 0.550820 seconds 
-Number of asset objects unloaded after import = 424
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.483 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1483ms)
-		BeginReloadAssembly (172ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (55ms)
-		EndReloadAssembly (1227ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (260ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (807ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (59ms)
-				ProcessInitializeOnLoadAttributes (704ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(1ed4e84183ad15c43b32a13aeca25b98) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/ArmModel.cs") state(2)
-Script is not up to date after domain reload: guid(776e8db597ee06842a94c5fe96a692db) path("Packages/com.valvesoftware.unity.openvr/Runtime/DeviceLayouts.cs") state(2)
-Script is not up to date after domain reload: guid(155fb79913e46e546926a3cad34ee561) path("Packages/com.unity.xr.management/Editor/AndroidManifest/AndroidManifestDocument.cs") state(2)
-Script is not up to date after domain reload: guid(57a021d9ff05c6f4588567ea353dee33) path("Packages/com.unity.xr.management/Tests/TestTooling/LoaderTestSetup.cs") state(2)
-Script is not up to date after domain reload: guid(a1d3d423453f7094a9219647aa8700d4) path("Packages/com.unity.xr.management/Editor/XRPackageInitialization.cs") state(2)
-Script is not up to date after domain reload: guid(2254374c9407c02439ac76a9931081cd) path("Packages/com.unity.xr.management/Tests/Editor/PackageInitSettingsTests.cs") state(2)
-Script is not up to date after domain reload: guid(d2dc886499c26824283350fa532d087d) path("Packages/com.unity.xr.management/Editor/XRGeneralSettingsPerBuildTarget.cs") state(2)
-Script is not up to date after domain reload: guid(8443d3621b17161459d890b196695db3) path("Packages/com.unity.xr.management/xrmanifest.androidlib") state(2)
-Script is not up to date after domain reload: guid(ae3d005fd595c0841ac79b5c0d7fcb35) path("Packages/com.unity.xr.management/Editor/XRLoaderInfoManager.cs") state(2)
-Script is not up to date after domain reload: guid(ab121e37ba25f5549b3f70723f0587a2) path("Packages/com.unity.xr.management/Tests/TestPackage/Editor/TestPackage.cs") state(2)
-Script is not up to date after domain reload: guid(80ce73850af91a64db881df56edfb826) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/TestLoaderTwo.cs") state(2)
-Script is not up to date after domain reload: guid(81b4aa850da6b0e47be8180dfdbca4f6) path("Packages/com.unity.xr.management/Editor/XRCustomLoaderUI.cs") state(2)
-Script is not up to date after domain reload: guid(a01285314f691c540930d22a6a820b09) path("Packages/com.unity.xr.management/Editor/XRPackageInitializationSettings.cs") state(2)
-Script is not up to date after domain reload: guid(bd5fdb090509d384b9a8c01f40e1f085) path("Packages/com.valvesoftware.unity.openvr/Runtime/x86/ucrtbased.dll") state(2)
-Script is not up to date after domain reload: guid(fe69636be56b48041abf9fd83457a282) path("Packages/com.unity.xr.management/Tests/Editor/AndroidManifestTests.cs") state(2)
-Script is not up to date after domain reload: guid(8d28a628911c34c58a40cb9ef2ea4b31) path("Packages/com.unity.xr.management/Runtime/XRLoaderHelper.cs") state(2)
-Script is not up to date after domain reload: guid(a500e1fea16b2fa43b644ddf59175b68) path("Packages/com.unity.xr.management/Tests/TestTooling/ManagementTestSetup.cs") state(2)
-Script is not up to date after domain reload: guid(8227b7d99b019a14e9c7252c25cfcdc2) path("Packages/com.unity.xr.management/Tests/Editor/StandaloneSubsystemTests.cs") state(2)
-Script is not up to date after domain reload: guid(a1797bfd7905e844ab00f68dca3ed050) path("Packages/com.unity.xr.management/Editor/AndroidManifest/AndroidManifestProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(b7d676d740a0644c0870d6d689136546) path("Packages/com.unity.xr.management/Editor/XRSettingsManager.cs") state(2)
-Script is not up to date after domain reload: guid(d0771c912c4d7c841b238a454ec571cb) path("Packages/com.unity.xr.legacyinputhelpers/Editor/ArmModels/TransitionArmModelEditor.cs") state(2)
-Script is not up to date after domain reload: guid(42e3aee306e61d04e86b1f31768ef309) path("Packages/com.unity.xr.management/Tests/TestPackage/Editor/TestSettingsEditor.cs") state(2)
-Script is not up to date after domain reload: guid(8a0b161efcd8b074a826ab7d34fcfa43) path("Packages/com.unity.xr.management/Editor/Metadata/XRPackageMetadataStore.cs") state(2)
-Script is not up to date after domain reload: guid(89c097ec5a9e1d0409a12d54380028f9) path("Packages/com.unity.xr.legacyinputhelpers/Editor/TrackedPoseDriver/TrackedPoseDriverEditor.cs") state(2)
-Script is not up to date after domain reload: guid(199b1132f38d3f441aa719318365d5e9) path("Packages/com.unity.xr.management/Tests/Editor/BuildTests.cs") state(2)
-Script is not up to date after domain reload: guid(eb7cc2e2517b6a54096dad971cfd5d86) path("Packages/com.valvesoftware.unity.openvr/Runtime/OpenVRHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(f054bb8325ac45040b14bf8bd85066f2) path("Packages/com.unity.xr.management/Tests/Editor/PackageManagementTests.cs") state(2)
-Script is not up to date after domain reload: guid(101cdf2d24ab75f4cb29ac9cb47e8209) path("Packages/com.unity.xr.management/Editor/AndroidManifest/ManifestElement.cs") state(2)
-Script is not up to date after domain reload: guid(6895f8ad07949c64f847ed31c87af951) path("Packages/com.unity.xr.management/Editor/EditorUtilities.cs") state(2)
-Script is not up to date after domain reload: guid(24f65cd604fa73e4e9dbaa12d1b335e9) path("Packages/com.unity.xr.management/Tests/StandaloneSubsystem/StandaloneSubsystem.cs") state(2)
-Script is not up to date after domain reload: guid(573bb802f55a06c4fb7f19db9a003f62) path("Packages/com.unity.xr.management/Editor/XRSupportedBuildTargetAttribute.cs") state(2)
-Script is not up to date after domain reload: guid(9d5810c1ea5c4b640a6f4be29474580e) path("Packages/com.valvesoftware.unity.openvr/Runtime/x64/XRSDKOpenVR.dll") state(2)
-Script is not up to date after domain reload: guid(9ebb01c3a5ac7564d80fe780a7058df0) path("Packages/com.unity.xr.legacyinputhelpers/Editor/SeedXRInputBindings/SeedXRInputBindings.cs") state(2)
-Script is not up to date after domain reload: guid(0cb5ab924d5b50c498ffc64879877e86) path("Packages/com.unity.xr.legacyinputhelpers/Tests/Runtime/TrackedPoseDriver/TrackedPoseDriverTests.cs") state(2)
-Script is not up to date after domain reload: guid(759b8a665f0e4234db4a1b9a1514aa1d) path("Packages/com.unity.xr.legacyinputhelpers/Editor/ArmModels/SwingArmModelEditor.cs") state(2)
-Script is not up to date after domain reload: guid(731806369f8c24ec3bfee6ac9f820f6a) path("Packages/com.unity.xr.management/Tests/Editor/EditorTests.cs") state(2)
-Script is not up to date after domain reload: guid(d236b7d11115f2143951f1e14045df39) path("Packages/com.unity.xr.management/Runtime/XRGeneralSettings.cs") state(2)
-Script is not up to date after domain reload: guid(f4c3631f5e58749a59194e0cf6baf6d5) path("Packages/com.unity.xr.management/Runtime/XRManagerSettings.cs") state(2)
-Script is not up to date after domain reload: guid(d19006cf3476fe8418e1018605a8ef99) path("Packages/com.unity.xr.management/Editor/AndroidManifest/AndroidManifestBuildEventReceiver.cs") state(2)
-Script is not up to date after domain reload: guid(7cbb6fca93034d44a8826718d09db887) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/TestLoaderThree.cs") state(2)
-Script is not up to date after domain reload: guid(85d49a0048bacad4c9390536624325c2) path("Packages/com.valvesoftware.unity.openvr/Runtime/x64/libXRSDKOpenVR.so") state(2)
-Script is not up to date after domain reload: guid(53934dfb266064225a96fe928fdcd3b3) path("Packages/com.unity.xr.management/Tests/Runtime/DummyLoader.cs") state(2)
-Script is not up to date after domain reload: guid(44ea4f699730f4b1a93b7ea24a2319c5) path("Packages/com.unity.xr.management/Editor/XRConfigurationProvider.cs") state(2)
-Script is not up to date after domain reload: guid(69dd6727f817cfd42a88eb2b632c436d) path("Packages/com.unity.xr.management/Tests/Runtime/RuntimeTestSettings.cs") state(2)
-Script is not up to date after domain reload: guid(67c6b20ab8216514ba5aedd7898dc1ac) path("Packages/com.unity.xr.management/Tests/Editor/MetadataTests.cs") state(2)
-Script is not up to date after domain reload: guid(4a77633e6daf24a45994d8aae1b52268) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/AssemblyInfo.cs") state(2)
-Script is not up to date after domain reload: guid(61ff693bbf35149d684ae1e0be75e26f) path("Packages/com.unity.xr.management/Runtime/XRLoader.cs") state(2)
-Script is not up to date after domain reload: guid(0bcb0a0c70d1bbe419964a5935a83745) path("Packages/com.unity.xr.legacyinputhelpers/Tests/Editor/SeedXRInputBindings/SeedXRInputBindingsTests.cs") state(2)
-Script is not up to date after domain reload: guid(bdda55d4c239b3f438a25afea4860171) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/TestSettings.cs") state(2)
-Script is not up to date after domain reload: guid(98f5e129a3cd69847bae7685c22fd39b) path("Packages/com.unity.xr.management/Tests/StandaloneSubsystem/StandaloneLoader.cs") state(2)
-Script is not up to date after domain reload: guid(0d622ec83e4f54b6596923435a4bba8b) path("Packages/com.unity.xr.management/Editor/XRManagerEditor.cs") state(2)
-Script is not up to date after domain reload: guid(9a8e42857af398b43bb150f17aea738b) path("Packages/com.unity.xr.management/Editor/XREditorWorkQueue.cs") state(2)
-Script is not up to date after domain reload: guid(aa96b4d255b4b9f4da4c77ce337393ec) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/BasePoseProvider.cs") state(2)
-Script is not up to date after domain reload: guid(15f789f4848004249b8e67d3fcf33a78) path("Packages/com.unity.xr.management/Editor/XRConstants.cs") state(2)
-Script is not up to date after domain reload: guid(3ffc80ed5a6b6e74499a45b59a238640) path("Packages/com.unity.xr.management/Editor/Legacy/XRLegacyUninstaller.cs") state(2)
-Script is not up to date after domain reload: guid(a2483b9bd782f9449a5972b61b7d51a9) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/CameraOffset.cs") state(2)
-Script is not up to date after domain reload: guid(28c8363a46afc475bb1a7901a0dd2ad2) path("Packages/com.unity.xr.management/Editor/TypeLoaderExtensions.cs") state(2)
-Script is not up to date after domain reload: guid(93492893b74ab764b83d940916a59b03) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/TransitionArmModel.cs") state(2)
-Script is not up to date after domain reload: guid(aa29f6b16faf667488069bc2272a9364) path("Packages/com.unity.xr.management/Editor/XRGeneralBuildProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(4f9b2b17cfd02430b99d104616f45273) path("Packages/com.unity.xr.management/Runtime/XRConfigurationData.cs") state(2)
-Script is not up to date after domain reload: guid(f2052235d412b9845bcb42de2b6ec306) path("Packages/com.unity.xr.management/Editor/XRGeneralSettingsUpgrade.cs") state(2)
-Script is not up to date after domain reload: guid(e42439f4b5dbd1947a2161c0c2969508) path("Packages/com.unity.xr.legacyinputhelpers/Editor/CameraOffsetEditor.cs") state(2)
-Script is not up to date after domain reload: guid(9827676ef5f18a44e878c6754e9ea67a) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/TestLoaderOne.cs") state(2)
-Script is not up to date after domain reload: guid(35384602e31b9654ab877f04fa188204) path("Packages/com.valvesoftware.unity.openvr/Runtime/x86/openvr_api.dll") state(2)
-Script is not up to date after domain reload: guid(06177c8680ea415c88d4b29d40a79cec) path("Packages/com.unity.xr.management/Editor/PackageNotificationUtils.cs") state(2)
-Script is not up to date after domain reload: guid(e626a1eec7776ce4797c6ef00c47bf23) path("Packages/com.unity.xr.management/Editor/XRLoaderOrderUI.cs") state(2)
-Script is not up to date after domain reload: guid(918a2ed9fc11fbe42982c69db3aa5dc9) path("Packages/com.unity.xr.management/Editor/BuildHelpers.cs") state(2)
-Script is not up to date after domain reload: guid(9afbbf83a040d6440ae4932e5304f426) path("Packages/com.valvesoftware.unity.openvr/Runtime/x64/ucrtbased.dll") state(2)
-Script is not up to date after domain reload: guid(71386a05eac8ec4498473d915e4eacc5) path("Packages/com.valvesoftware.unity.openvr/Runtime/x64/openvr_api.dll") state(2)
-Script is not up to date after domain reload: guid(eca7ba6d7e1b88845960a98f39f5d381) path("Packages/com.unity.xr.management/Editor/XRLoaderInfo.cs") state(2)
-Script is not up to date after domain reload: guid(280b4d58d27987248b1d07c8d70e0784) path("Packages/com.unity.xr.management/Editor/Metadata/XRPackage.cs") state(2)
-Script is not up to date after domain reload: guid(f2298ee6083796c41a784a83c67d909a) path("Packages/com.valvesoftware.unity.openvr/Runtime/x86/XRSDKOpenVR.dll") state(2)
-Script is not up to date after domain reload: guid(c9587e8332e3478419afa1a60bf10342) path("Packages/com.valvesoftware.unity.openvr/Editor/OpenVRLoaderMetadata.cs") state(2)
-Script is not up to date after domain reload: guid(7754b2a3cfd01774c9b7d715d3dbdc48) path("Packages/com.unity.xr.management/Editor/Metadata/XRPackageMetadata.cs") state(2)
-Script is not up to date after domain reload: guid(dda6a4ae198ab2643bd0c72cb8b3f51c) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/TestLoaderBase.cs") state(2)
-Script is not up to date after domain reload: guid(8fe979d5973bf424080cd97a9917fb53) path("Packages/com.unity.xr.management/Editor/XRCustomLoaderUIManager.cs") state(2)
-Script is not up to date after domain reload: guid(fac60b1ea386ed14da6c50ad574e0ab0) path("Packages/com.unity.xr.management/Editor/AndroidManifest/ManifestRequirement.cs") state(2)
-Script is not up to date after domain reload: guid(ad402f78648da2543942ac459d856573) path("Packages/com.unity.xr.management/Editor/Metadata/KnownPackages.cs") state(2)
-Script is not up to date after domain reload: guid(ec7cec788a6acc34594dfa5d408b60bc) path("Packages/com.valvesoftware.unity.openvr/Editor/OpenVRBuildProcessor.cs") state(2)
-Script is not up to date after domain reload: guid(5a2a9c34df4095f47b9ca8f975175f5b) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/TrackedPoseDriver/TrackedPoseDriver.cs") state(2)
-Script is not up to date after domain reload: guid(3b45a81d07011564297a01edd9f8bbfb) path("Packages/com.unity.xr.management/Editor/AndroidManifest/IAndroidManifestRequirementProvider.cs") state(2)
-Script is not up to date after domain reload: guid(4c8d99218e05134429b8aba5de6dc700) path("Packages/com.valvesoftware.unity.openvr/Runtime/openvr_api.cs") state(2)
-Script is not up to date after domain reload: guid(b4b282a8df6f7e24cbe7c4866f7eb6f8) path("Packages/com.unity.xr.management/Tests/Editor/DomainReloadTests.cs") state(2)
-Script is not up to date after domain reload: guid(fd661411ada16794aa7015ddf3778407) path("Packages/com.unity.xr.legacyinputhelpers/Editor/ArmModels/ArmModelEditor.cs") state(2)
-Script is not up to date after domain reload: guid(83e5e574dc5d9854e9133734661c04de) path("Packages/com.unity.xr.management/Editor/XRBuildProcessorHelper.cs") state(2)
-Script is not up to date after domain reload: guid(5685c6ec3d77efd409c20e6da27a4c72) path("Packages/com.valvesoftware.unity.openvr/Runtime/OpenVRLoader.cs") state(2)
-Script is not up to date after domain reload: guid(7a32bfe54d957ec4581fa4a630f1647a) path("Packages/com.valvesoftware.unity.openvr/Runtime/OpenVRSettings.cs") state(2)
-Script is not up to date after domain reload: guid(4f594677a2340704797934efc5ba0678) path("Packages/com.unity.xr.legacyinputhelpers/Editor/MenuUtils.cs") state(2)
-Script is not up to date after domain reload: guid(4125b72fb8d964ddd9e2d704725a7cbc) path("Packages/com.unity.xr.management/Tests/Runtime/RuntimeTests.cs") state(2)
-Script is not up to date after domain reload: guid(c0400e7689f207e4fb193f75c8ddf993) path("Packages/com.valvesoftware.unity.openvr/Runtime/x64/libopenvr_api.so") state(2)
-Script is not up to date after domain reload: guid(f5020ebb9f8898c40a3b02af96a06b0a) path("Packages/com.unity.xr.management/Tests/Runtime/RuntimeLoaderTests.cs") state(2)
-Script is not up to date after domain reload: guid(2950d57dafc0eed449fa54e88bc8146c) path("Packages/com.unity.xr.legacyinputhelpers/Runtime/ArmModels/SwingArmModel.cs") state(2)
-Script is not up to date after domain reload: guid(7eb4dec25a44a6544a2981cc989b4d57) path("Packages/com.valvesoftware.unity.openvr/Editor/OpenVRSettingsEditor.cs") state(2)
-Script is not up to date after domain reload: guid(fdb1d409e9083354e829d5669fe6f6ad) path("Packages/com.unity.xr.management/Runtime/IXRLoaderPreInit.cs") state(2)
-Script is not up to date after domain reload: guid(013b7dbbc8ec54c4182940c05c060ee9) path("Packages/com.unity.xr.management/Tests/StandaloneSubsystem/StandaloneSubsystemDescriptor.cs") state(2)
-Script is not up to date after domain reload: guid(65fe5cdf7c56dd54d9a7e049e172298d) path("Packages/com.valvesoftware.unity.openvr/Editor/OpenVRSettingsCopier.cs") state(2)
-Script is not up to date after domain reload: guid(dcdda031281fc234cb5a16b47b11fbcb) path("Packages/com.valvesoftware.unity.openvr/Runtime/OpenVREvents.cs") state(2)
-Script is not up to date after domain reload: guid(38ca4053ebf8da44daa4736081117489) path("Packages/com.unity.xr.management/Tests/TestPackage/Editor/TestPackageMetadata.cs") state(2)
-Script is not up to date after domain reload: guid(a65c6d9b4fa97644c896e9382fe5226f) path("Packages/com.unity.xr.management/Runtime/XRManagementAnalytics.cs") state(2)
-Script is not up to date after domain reload: guid(d4a6fc50e59fbc14ab1f849d70ba8ba9) path("Packages/com.unity.xr.management/Editor/Legacy/XRLegacyStandaloneSubsystem.cs") state(2)
-Script is not up to date after domain reload: guid(15419879c32f35149b150d58e2d47a6f) path("Packages/com.unity.xr.management/Tests/TestPackage/Runtime/Constants.cs") state(2)
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3300 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (0.8 MB). Loaded Objects now: 3803.
-Memory consumption went from 121.1 MB to 120.4 MB.
-Total: 6.802600 ms (FindLiveObjects: 0.690500 ms CreateObjectMapping: 0.420400 ms MarkObjects: 4.923200 ms  DeleteObjects: 0.766800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003818 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.95 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.373 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1373ms)
-		BeginReloadAssembly (160ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1129ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (731ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (57ms)
-				ProcessInitializeOnLoadAttributes (633ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.32 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3400 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (0.8 MB). Loaded Objects now: 3907.
-Memory consumption went from 124.3 MB to 123.5 MB.
-Total: 4.255100 ms (FindLiveObjects: 0.473900 ms CreateObjectMapping: 0.305500 ms MarkObjects: 3.080200 ms  DeleteObjects: 0.394000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004471 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1240ms)
-		BeginReloadAssembly (126ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (1044ms)
-			LoadAssemblies (78ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (207ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (705ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (626ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.11 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (0.8 MB). Loaded Objects now: 3909.
-Memory consumption went from 124.1 MB to 123.3 MB.
-Total: 4.772000 ms (FindLiveObjects: 0.505200 ms CreateObjectMapping: 0.150800 ms MarkObjects: 3.629800 ms  DeleteObjects: 0.485100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 212.884193 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/PlatformController_PController_Emission.png
-  artifactKey: Guid(6fc72b9e7ef7d454e9d5f481bd6518ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/PlatformController_PController_Emission.png using Guid(6fc72b9e7ef7d454e9d5f481bd6518ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee5c1661d0f1cb665f822343306cc1f') in 0.086774 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPlaySpace.mat
-  artifactKey: Guid(a1313a5fd0b97df4798c301e337a1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportPlaySpace.mat using Guid(a1313a5fd0b97df4798c301e337a1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3086ae3ad5980bb928868caf481941a4') in 0.068117 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/platformer.physicMaterial
-  artifactKey: Guid(7c96990a8e2f1cc4ea46b9383d26bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/platformer.physicMaterial using Guid(7c96990a8e2f1cc4ea46b9383d26bb7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81128534d0888af366c6554399417ae3') in 0.004384 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SteamVR/InteractionSystem/Core/Prefabs/Player.prefab
-  artifactKey: Guid(dc06161b6d97feb419f45f03b62e14b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Core/Prefabs/Player.prefab using Guid(dc06161b6d97feb419f45f03b62e14b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c227f8f79f57a84ae254be93cf0e974') in 0.105993 seconds 
-Number of asset objects unloaded after import = 497
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/PlatformController_PController_MetallicSmoothness.png
-  artifactKey: Guid(62cf64cc226fcc648aa55fbec5654323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/JoeJeff/Textures/PlatformController_PController_MetallicSmoothness.png using Guid(62cf64cc226fcc648aa55fbec5654323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a4c40dfdbfea97ca7708a60e15993a9') in 0.013336 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 57.875515 seconds.
-  path: Assets/SteamVR/Models/vr_floppyHand.fbx
-  artifactKey: Guid(395115150fc0faf40abd1994e7405303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/vr_floppyHand.fbx using Guid(395115150fc0faf40abd1994e7405303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a97687524ef28ef539bbae524a2657') in 0.136515 seconds 
-Number of asset objects unloaded after import = 36
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SteamVR/Models/vr_glove_right_model_slim.fbx
-  artifactKey: Guid(641e9d2f5c6b4cb438161abef3be8300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/vr_glove_right_model_slim.fbx using Guid(641e9d2f5c6b4cb438161abef3be8300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a9d5e936b24d862c5f2bfe3afe30cf7') in 0.180644 seconds 
-Number of asset objects unloaded after import = 75
-========================================================================
-Received Import Request.
-  Time since last request: 5.195847 seconds.
-  path: Assets/SteamVR/Models/Materials/AlienHand_AlbedoTransparency.png
-  artifactKey: Guid(c7d922ead57c2c34ea7da4ad4c05bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/AlienHand_AlbedoTransparency.png using Guid(c7d922ead57c2c34ea7da4ad4c05bd61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36f6813ea200d41be08c79cd81a16df') in 0.006951 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/SteamVR/Models/Materials/AlienHand_MetallicSmoothness.png
-  artifactKey: Guid(d6f0e028c1244404eb2d02959b9f8f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/AlienHand_MetallicSmoothness.png using Guid(d6f0e028c1244404eb2d02959b9f8f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd058e8a0b3b2bcb00ef0150b0841e38') in 0.007183 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SteamVR/Models/Materials/No Name.mat
-  artifactKey: Guid(25505c45cde55ab4581c30195145adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/No Name.mat using Guid(25505c45cde55ab4581c30195145adc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448dba6195e4e356f4fe4766aeb7048f') in 0.032175 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SteamVR/Models/Materials/knuckles_right.mat
-  artifactKey: Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/knuckles_right.mat using Guid(dc89eae32e82ada4b873dd07678c67e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31690aa0937a98adc91f65f2daf8a3d1') in 0.008657 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SteamVR/Models/Materials/floppyHand.mat
-  artifactKey: Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/floppyHand.mat using Guid(f1f5a7b9d67d8354799973d55caf81ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe7957ad12219d50d78b021e891ec6c') in 0.006980 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SteamVR/Models/Materials/vr_glove_normal.png
-  artifactKey: Guid(3ba9d5201b468524ca8df1e0969a2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/vr_glove_normal.png using Guid(3ba9d5201b468524ca8df1e0969a2108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037b6d95ca74c3f8c1b782942cfd0c95') in 0.012219 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SteamVR/Models/Materials/vr_glove_color.jpg
-  artifactKey: Guid(376598f82a9237644a365fa0cc9e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/Models/Materials/vr_glove_color.jpg using Guid(376598f82a9237644a365fa0cc9e873a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e985f6113b6c33d3eb171e3e2d1f6e6f') in 0.015441 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 34.661482 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png
-  artifactKey: Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict.png using Guid(51582ae5ea51fa14996791a550f89473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8902a5ec009e334e87c10c1b4752bbd') in 0.008039 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict@2x.png
-  artifactKey: Guid(23743f0c0ed1e6546808a5d645c2a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconplasticnotifyconflict@2x.png using Guid(23743f0c0ed1e6546808a5d645c2a6a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a300f390bd2976a0f46da1ba8cb6767') in 0.068666 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.184833 seconds.
-  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png
-  artifactKey: Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/d_TimelineEditModeReplaceOFF.png using Guid(912fd71cbf4cbe140b4f240bedbc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557b4a4addfbd9065cbc9940c52118dd') in 0.006139 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png
-  artifactKey: Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict.png using Guid(a916ed6819efd014588f58e3cfc48196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d9c9fcbc6a84692c2335a481951650') in 0.005512 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming.png
-  artifactKey: Guid(1e6c9635b80f973488d8335a081c905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming.png using Guid(1e6c9635b80f973488d8335a081c905f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06796310d0990bedcb0b0dca75650ad') in 0.005434 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png
-  artifactKey: Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png using Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd59593a391532f36023a45daa6a71b36') in 0.005569 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict@2x.png
-  artifactKey: Guid(6e0a54826ffc3ee46b0aa3e1c1575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyconflict@2x.png using Guid(6e0a54826ffc3ee46b0aa3e1c1575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c21bd441c5f59ad44261cb8e9922d46') in 0.005731 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003826 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.367 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1368ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (1146ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (236ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (771ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (668ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 3929.
-Memory consumption went from 137.4 MB to 136.7 MB.
-Total: 5.786300 ms (FindLiveObjects: 0.558700 ms CreateObjectMapping: 0.351000 ms MarkObjects: 4.077800 ms  DeleteObjects: 0.797700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 41.319119 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_MetallicSmoothness.png
-  artifactKey: Guid(f953b4ec1bb0a834cadc594cf2a5bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/BuggyBuddy/Textures/controlerbuggy_LO_BuggyController_MetallicSmoothness.png using Guid(f953b4ec1bb0a834cadc594cf2a5bca0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faad37853ba62ef51be90433c0819447') in 0.043138 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture_MetallicSmoothness.png
-  artifactKey: Guid(7d025787045f1a34d88f9d9a15d0d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/Models/Materials/Furniture_MetallicSmoothness.png using Guid(7d025787045f1a34d88f9d9a15d0d5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04130491347aa23ef7d468260d79478') in 0.013578 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerTextHintLine.mat
-  artifactKey: Guid(fa05b1dac59aa764184da0aba83b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Hints/Materials/ControllerTextHintLine.mat using Guid(fa05b1dac59aa764184da0aba83b2bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8ae6af652d81a561d3d943057be3bb') in 0.085751 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 1.534734 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab
-  artifactKey: Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableBall.prefab using Guid(e0b086fbb874df143b6ac8f53cea5424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441ec6df9de0782af01f9cfa50911057') in 0.048429 seconds 
-Number of asset objects unloaded after import = 304
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableCube.prefab
-  artifactKey: Guid(fb710a001890d9a44bb74a8ce4f20cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/SteamVR/InteractionSystem/Samples/Prefabs/ThrowableCube.prefab using Guid(fb710a001890d9a44bb74a8ce4f20cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0db7e8e3805a71d4d61cd442173e2c77') in 0.019278 seconds 
-Number of asset objects unloaded after import = 132
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004078 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1341ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1120ms)
-			LoadAssemblies (83ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (749ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (664ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.58 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (0.8 MB). Loaded Objects now: 3934.
-Memory consumption went from 137.4 MB to 136.6 MB.
-Total: 6.020800 ms (FindLiveObjects: 0.509000 ms CreateObjectMapping: 0.325300 ms MarkObjects: 4.625700 ms  DeleteObjects: 0.559300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003972 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 - Completed reload, in  1.298 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1298ms)
-		BeginReloadAssembly (126ms)
+		BeginReloadAssembly (103ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (1097ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (1115ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (222ms)
+			SetupTypeCache (236ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (740ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (739ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (649ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (641ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.16 ms, found 6 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.35 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3389 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 33 unused Assets / (0.7 MB). Loaded Objects now: 3938.
-Memory consumption went from 137.3 MB to 136.6 MB.
-Total: 5.472800 ms (FindLiveObjects: 0.642500 ms CreateObjectMapping: 0.293100 ms MarkObjects: 4.045000 ms  DeleteObjects: 0.490900 ms)
+Unloading 3405 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (46.8 KB). Loaded Objects now: 3867.
+Memory consumption went from 119.8 MB to 119.8 MB.
+Total: 4.665700 ms (FindLiveObjects: 0.529400 ms CreateObjectMapping: 0.295800 ms MarkObjects: 3.731100 ms  DeleteObjects: 0.108300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -875,3 +214,139 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 745948.392493 seconds.
+  path: Assets/Scenes/RuslanScene.unity
+  artifactKey: Guid(62bba89be4aa8ef409725f7d91e95c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/RuslanScene.unity using Guid(62bba89be4aa8ef409725f7d91e95c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb0a113ad07634faa3173c551003462') in 0.010315 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.242165 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlighted.mat
+  artifactKey: Guid(a8cac5516702311429fe7478ff4d7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaHighlighted.mat using Guid(a8cac5516702311429fe7478ff4d7d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6856ab891fdcfb60f2a68f12af930334') in 0.105646 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Sounds/TeleportGoodArea.wav
+  artifactKey: Guid(4e2e74504a83fbd438147cfda37cf3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Sounds/TeleportGoodArea.wav using Guid(4e2e74504a83fbd438147cfda37cf3d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eec839ea619235011a55b3805dbf80e') in 0.140670 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Textures/TeleportAreaPatternColor.tga
+  artifactKey: Guid(f33ccd07f9433f44f8c5430938b168ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Textures/TeleportAreaPatternColor.tga using Guid(f33ccd07f9433f44f8c5430938b168ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364cdf48af343f18ce37757cb8b5469c') in 0.027448 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat
+  artifactKey: Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaLocked.mat using Guid(0fe9e4228ebb3bc469ead815cd305d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f236dd3a344ca6994e1d2768c7d7f69') in 0.018360 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleLow.mat
+  artifactKey: Guid(50e5b65061d0b044da1bfd0dc52d912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleLow.mat using Guid(50e5b65061d0b044da1bfd0dc52d912d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fefd6a5bc4fb42ca609cb07fc994c6c2') in 0.023909 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat
+  artifactKey: Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaVisibleBright.mat using Guid(7ec109995bd12834794f8eebaf1e7d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5c81ed61c9b13c1e1ffff21ab1b4ea') in 0.013699 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaLocked.mat
+  artifactKey: Guid(f6802bd638faedf4dbe4a57c1f222991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaLocked.mat using Guid(f6802bd638faedf4dbe4a57c1f222991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b84cc9141637291a2a9d9dd86b533') in 0.024583 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleLow.mat
+  artifactKey: Guid(5f0129f65bc822d429cfad1b63fb9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials/TeleportAreaVisibleLow.mat using Guid(5f0129f65bc822d429cfad1b63fb9db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9a2419623bf91026230766509d37f5') in 0.013826 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerStart.wav
+  artifactKey: Guid(7113854dded09be418cf3be1158d444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Sounds/TeleportPointerStart.wav using Guid(7113854dded09be418cf3be1158d444c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba556bd012eb4334557b0e16ef93f8c') in 0.006525 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Textures/TeleportMarker.psd
+  artifactKey: Guid(ebc38d834b57e9d4d992de0a5470615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Textures/TeleportMarker.psd using Guid(ebc38d834b57e9d4d992de0a5470615a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca88f415fc93583cf336e64ce5e592ac') in 0.012392 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedLow.mat
+  artifactKey: Guid(bbd3c57c95ca5934abf56f614110fa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlightedLow.mat using Guid(bbd3c57c95ca5934abf56f614110fa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec86a92b0d81d626c26d2883d0067b01') in 0.023226 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointer.mat
+  artifactKey: Guid(da2a09186fc8dfa4c9f1c2933159f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointer.mat using Guid(da2a09186fc8dfa4c9f1c2933159f94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e603911bb02d0622142aea74e64a6e60') in 0.005671 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlighted.mat
+  artifactKey: Guid(9001ec1e087534147bd9f18cbf931597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportAreaHighlighted.mat using Guid(9001ec1e087534147bd9f18cbf931597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f983cf4b12db5010c90c4e045e980937') in 0.007067 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Prefabs/Teleporting.prefab
+  artifactKey: Guid(7a135b1a2cb9c8f488d4dd00c55ab283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Prefabs/Teleporting.prefab using Guid(7a135b1a2cb9c8f488d4dd00c55ab283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1f83fec26243b7e312acecc1f561bc') in 0.038829 seconds 
+Number of asset objects unloaded after import = 86
+========================================================================
+Received Import Request.
+  Time since last request: 6.139887 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointText.mat
+  artifactKey: Guid(7405a0e72d2cbda4184774c25ee70fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointText.mat using Guid(7405a0e72d2cbda4184774c25ee70fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccec7f26fd9d4a00cfa507cd66ca49a5') in 0.008592 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointVisible.mat
+  artifactKey: Guid(bda4e134e1985594ea5aa36ca5a739e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SteamVR/InteractionSystem/Teleport/Materials URP/URPTeleportPointVisible.mat using Guid(bda4e134e1985594ea5aa36ca5a739e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2721497183bece11fc77556611e44d') in 0.007155 seconds 
+Number of asset objects unloaded after import = 2
