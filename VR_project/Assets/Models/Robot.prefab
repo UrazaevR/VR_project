@@ -2309,12 +2309,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shoulder: {fileID: 1304438965073874241}
-  shoulderRotationSpeed: 30
+  shoulderRotationSpeed: 60
   arm: {fileID: 1614009173960160383}
   forearmPivot: {fileID: 4224064221743080935}
-  armMovementSpeed: 20
+  armMovementSpeed: 40
   wristPivot: {fileID: 4628280448236552200}
-  wristMovementSpeed: 20
+  wristMovementSpeed: 40
   grabRadius: 0.2
   gripCenterPoint: {fileID: 4224064222817121653}
   gripHoldDistance: 1
