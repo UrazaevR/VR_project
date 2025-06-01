@@ -33,7 +33,7 @@ public class ChairInteraction : MonoBehaviour
     [Tooltip("Should player rotate to face chair's forward when sitting?")]
     public bool rotateToChairForward = true;
 
-    private bool isSitting = false;
+    public bool isSitting = false;
     private CharacterController characterController;
     private Vector3 originalCenter;
     private float originalHeight;
@@ -181,11 +181,8 @@ public class ChairInteraction : MonoBehaviour
 
             // Apply rotation to player
             var rotation = cameraRotationDifference * player.transform.rotation;
-            Debug.Log(rotation.y);
-            rotation.y = rotation.y - 0.7075f;
-            Debug.Log(rotation.y);
+            rotation.y = rotation.y - 0.90f;
             player.transform.rotation = rotation;
-            Debug.Log(rotation);
 
         }
     }

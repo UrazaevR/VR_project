@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ManipulatorController : MonoBehaviour
 {
+    [Header("Control chair")]
+    public ChairInteraction chair;
     [Header("Shoulder Control")]
     public Transform shoulder;
     public float shoulderRotationSpeed = 30f;
@@ -40,9 +42,12 @@ public class ManipulatorController : MonoBehaviour
 
     void Update()
     {
-        HandleShoulderRotation();
-        HandleArmMovement();
-        HandleGrip();
+        if (chair.isSitting)
+        {
+            HandleShoulderRotation();
+            HandleArmMovement();
+            HandleGrip();
+        }
     }
 
     private void HandleShoulderRotation()
