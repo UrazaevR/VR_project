@@ -4,54 +4,58 @@ using UnityEngine;
 public class LentaScript : MonoBehaviour
 {
     [Header("Movement Settings")]
-    public float speed = 5.0f; // Увеличил скорость для лучшей видимости
+    public float speed = 2.0f; // Скорость движения объектов
+    public bool isRunning = true;
 
     [Header("Direction Points")]
-    public Transform startPoint;
-    public Transform endPoint;
+    public Transform startPoint; // Стартовая точка направления
+    public Transform endPoint;   // Конечная точка направления
 
-    private Vector3 movementDirection;
-    private List<Rigidbody> objectsOnBelt = new List<Rigidbody>();
-    private Collider beltCollider;
+    private Vector3 movementDirection; // Направление движения
+    private HashSet<Rigidbody> objectsOnBelt = new HashSet<Rigidbody>(); // Объекты на ленте
 
     void Start()
     {
-        beltCollider = GetComponent<Collider>();
-        if (beltCollider == null)
-        {
-            Debug.LogError("No collider found on the belt! Adding BoxCollider...");
-            beltCollider = gameObject.AddComponent<BoxCollider>();
-        }
-
-        // Критически важно: коллайдер НЕ должен быть триггером!
-        beltCollider.isTrigger = false;
-
+        // Проверка наличия точек направления
         if (startPoint == null || endPoint == null)
         {
-            Debug.LogError("Assign start and end points in inspector!");
+            Debug.LogError("StartPoint and EndPoint must be assigned!");
             enabled = false;
+            return;
+        }
+
+        // Первоначальный расчет направления
+        CalculateDirection();
+
+        // Настройка коллайдера
+        Collider collider = GetComponent<Collider>();
+        if (collider != null)
+        {
+            collider.isTrigger = false;
         }
     }
 
     void FixedUpdate()
     {
-        if (startPoint == null || endPoint == null) return;
+        // Обновление направления на случай изменения точек
+        CalculateDirection();
 
-        movementDirection = (endPoint.position - startPoint.position).normalized;
-
-        foreach (Rigidbody rb in objectsOnBelt)
+        // Перемещение всех объектов на ленте
+        if (isRunning)
         {
-            if (rb != null)
+            foreach (Rigidbody rb in objectsOnBelt)
             {
-                // Используем физический метод для движения
-                MoveObject(rb);
+                if (rb != null)
+                {
+                    MoveObject(rb);
+                }
             }
         }
     }
 
     void OnCollisionEnter(Collision collision)
     {
-        Rigidbody rb = collision.collider.attachedRigidbody;
+        Rigidbody rb = collision.rigidbody;
         if (rb != null && !rb.isKinematic && !objectsOnBelt.Contains(rb))
         {
             objectsOnBelt.Add(rb);
@@ -60,51 +64,41 @@ public class LentaScript : MonoBehaviour
 
     void OnCollisionExit(Collision collision)
     {
-        Rigidbody rb = collision.collider.attachedRigidbody;
+        Rigidbody rb = collision.rigidbody;
         if (rb != null && objectsOnBelt.Contains(rb))
         {
             objectsOnBelt.Remove(rb);
         }
     }
 
+    void CalculateDirection()
+    {
+        // Расчет нормализованного направления движения
+        movementDirection = (endPoint.position - startPoint.position).normalized;
+    }
+
     void MoveObject(Rigidbody rb)
     {
-        // Вычисляем движение в мировых координатах
+        // Расчет смещения
         Vector3 movement = movementDirection * speed * Time.fixedDeltaTime;
 
-        // Применяем движение через физический метод
+        // Применение смещения к позиции объекта
         rb.MovePosition(rb.position + movement);
     }
 
+    // Визуализация в редакторе
     void OnDrawGizmosSelected()
     {
         if (startPoint != null && endPoint != null)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawSphere(startPoint.position, 0.15f);
-            Gizmos.DrawSphere(endPoint.position, 0.15f);
+            Gizmos.DrawSphere(startPoint.position, 0.1f);
+            Gizmos.DrawSphere(endPoint.position, 0.1f);
             Gizmos.DrawLine(startPoint.position, endPoint.position);
 
             // Стрелка направления
             Vector3 dir = (endPoint.position - startPoint.position).normalized;
             Gizmos.DrawRay(endPoint.position, -dir * 0.5f);
-            GizmoUtils.DrawArrow(endPoint.position, dir, 0.5f, 20f);
         }
-    }
-}
-
-// Вспомогательный класс для рисования стрелки
-public static class GizmoUtils
-{
-    public static void DrawArrow(Vector3 pos, Vector3 direction, float length, float arrowAngle)
-    {
-        Vector3 arrowEnd = pos + direction * length;
-        Gizmos.DrawLine(pos, arrowEnd);
-
-        Vector3 right = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180 + arrowAngle, 0) * Vector3.forward;
-        Vector3 left = Quaternion.LookRotation(direction) * Quaternion.Euler(0, 180 - arrowAngle, 0) * Vector3.forward;
-
-        Gizmos.DrawRay(arrowEnd, right * 0.25f);
-        Gizmos.DrawRay(arrowEnd, left * 0.25f);
     }
 }
