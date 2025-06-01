@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 sceneSetups: []
+=======
+sceneSetups:
+- path: Assets/Scenes/ManipulatorScene.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> Ruslan_branch

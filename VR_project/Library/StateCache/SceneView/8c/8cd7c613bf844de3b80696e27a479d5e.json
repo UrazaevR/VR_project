@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-1.2031116485595704,"y":0.5052900314331055,"z":0.9523239135742188},"rotation":{"x":-0.09018174558877945,"y":0.8859578371047974,"z":-0.19422286748886109,"w":-0.4113686978816986},"size":9.152007102966309,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":1.3212907314300538,"y":0.5590953826904297,"z":-3.3988256454467775},"rotation":{"x":-0.24187207221984864,"y":0.16244268417358399,"z":-0.04110546037554741,"w":-0.9559690356254578},"size":4.7785234451293949,"orthographic":false}
+>>>>>>> Ruslan_branch

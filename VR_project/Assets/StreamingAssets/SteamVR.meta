@@ -1,6 +1,15 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:VR_project/Assets/StreamingAssets/SteamVR.meta
 guid: 5fb908ca843245444b178b02b05071fa
 folderAsset: yes
+========
+guid: 0b57d0d57663a8f4bac9f61dbb834ffb
+>>>>>>>> Ruslan_branch:VR_project/Assets/Button.blend1.meta
+=======
+guid: f76f6075b91356b4c968d6fbd67a068b
+folderAsset: yes
+>>>>>>> Ruslan_branch
 DefaultImporter:
   externalObjects: {}
   userData: 
