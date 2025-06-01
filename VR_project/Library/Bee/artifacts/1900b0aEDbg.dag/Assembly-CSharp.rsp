@@ -374,10 +374,10 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/Scripts/ButtonController.cs"
 "Assets/Scripts/DeleteOnContact.cs"
-"Assets/Scripts/DeleteOnContact1.cs"
+"Assets/Scripts/last_ManipulatorController.cs"
 "Assets/Scripts/LentaScript.cs"
+"Assets/Scripts/ManipulatorController.cs"
 "Assets/Scripts/ObjectFollower.cs"
 "Assets/Scripts/SpawnScript.cs"
 -langversion:9.0
