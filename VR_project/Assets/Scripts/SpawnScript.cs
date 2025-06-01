@@ -25,9 +25,7 @@ public class SpawnScript : MonoBehaviour
 
         // Создаем экземпляр объекта внутри текущего объекта
         GameObject spawnedObject = Instantiate(
-            prefabToSpawn,
-            transform.position,
-            transform.rotation
+            prefabToSpawn
         );
 
         // Делаем текущий объект родителем для нового объекта
